@@ -1,0 +1,12 @@
++ soma de números ou juntar textos
+- subtração
+* multiplicação
+/ divisão
+% resto da divisão de inteiros 
+** potência ("elevado a")
+> maior 
+>= maior ou igual
+< menor 
+<= menor ou igual
+=== igual a 
+!== diferente de
