@@ -1,0 +1,39 @@
+const lista = [1, 2, "oi"]; //dentro do [] escrevo os elementos da lista, pode misturar tipos diferentes
+//lista a gente chama de array
+console.log("lista");
+
+for (const elemento of lista) {
+  console.log(typeof elemento);
+}
+
+// exemplo
+//1 qual a soma deles?
+//2 qual o menor deles?
+const listanum = [34, 56, 768, 8, 81, 3, 6];
+
+//1 qual a soma deles?
+
+let acumulador = 0;
+
+for (const numero of listanum){
+ acumulador += numero;
+}
+
+console.log("A soma é", acumulador);
+
+//2 qual o menor deles?
+
+let menornumero;
+
+for (const numero of listanum) {
+  if (menornumero === undefined){
+    menornumero = numero;
+  }
+  else {
+    if(numero < menornumero){
+      menornumero = numero;
+    }
+  }
+}
+
+console.log("O menor numero é", menornumero);
