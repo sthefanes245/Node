@@ -1,3 +1,19 @@
+function solucao(olhosNasLaterais) {
+    // seu codigo aqui
+  if (olhosNasLaterais === true){
+    console.log("Presa");
+    console.log("O animal possui olhos nas laterais da cabeça e, portanto, é uma presa.");
+  }
+  else {
+    console.log("Predador");
+    console.log("O animal não possui olhos nas laterais da cabeça e, portanto, é um predador.");
+  }
+}
+
+let olhosNasLaterais = true;
+
+solucao(olhosNasLaterais);
+
 /*Problema
 Em uma reportagem de 2016, a revista Veja cita as principais características que indicam se um animal é presa ou predador. Uma delas, segundo a revista, é que as presas costumam ter os olhos nos lados da cabeça, o que oferece um amplo ângulo de visão.
 
@@ -26,19 +42,3 @@ PRESA
 
 Explicação
 O animal possui olhos nas laterais da cabeça e, portanto, é uma presa.*/
-
-function solucao(olhosNasLaterais) {
-    // seu codigo aqui
-  if (olhosNasLaterais === true){
-    console.log("Presa");
-    console.log("O animal possui olhos nas laterais da cabeça e, portanto, é uma presa.");
-  }
-  else {
-    console.log("Predador");
-    console.log("O animal não possui olhos nas laterais da cabeça e, portanto, é um predador.");
-  }
-}
-
-let olhosNasLaterais = true;
-
-solucao(olhosNasLaterais);
